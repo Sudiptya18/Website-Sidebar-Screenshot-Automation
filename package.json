@@ -1,0 +1,16 @@
+{
+  "name": "website-sidebar-screenshot-automation",
+  "version": "1.0.0",
+  "main": "capture-sidebar-screenshots.js",
+  "scripts": {
+    "capture": "node capture-sidebar-screenshots.js"
+  },
+  "keywords": ["playwright", "screenshots", "sidebar", "automation"],
+  "author": "",
+  "license": "ISC",
+  "description": "Automated full-page screenshots for web app sidebar navigation (Playwright).",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "playwright": "^1.59.0"
+  }
+}

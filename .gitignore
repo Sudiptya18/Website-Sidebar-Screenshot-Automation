@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Local configuration (URLs, secrets — never commit)
+.env
+.env.local
+.env.*.local
+
+# Captured output (may contain sensitive business data)
+screenshots/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs / Playwright artifacts
+*.log
+playwright-report/
+test-results/
+blob-report/
