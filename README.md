@@ -81,6 +81,22 @@ The `screenshots/` directory is cleared at the start of each run so every execut
 - **Automation:** Playwright (Chromium)  
 - **Configuration:** `dotenv` for local environment variables  
 
+## Push to GitHub
+
+This project is ready for Git with `screenshots/` and `.env` excluded. To publish under the name **Website Sidebar Screenshot Automation**:
+
+1. On [github.com/new](https://github.com/new), create an empty repository. Use a name such as `Website-Sidebar-Screenshot-Automation` or `website-sidebar-screenshot-automation` (GitHub does not allow spaces in the URL; you can set a friendly **Description** on the repo page instead).
+2. Do **not** add a README, `.gitignore`, or license on GitHub if this folder already contains them.
+3. In the project directory, add the remote and push (replace `YOUR_USER` and the repo name if yours differs):
+
+   ```bash
+   git remote add origin https://github.com/YOUR_USER/Website-Sidebar-Screenshot-Automation.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+If you use SSH remotes, use `git@github.com:YOUR_USER/Website-Sidebar-Screenshot-Automation.git` instead.
+
 ## License
 
 ISC (see `package.json`).
